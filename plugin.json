@@ -1,10 +1,10 @@
 {
     "name": "Matryoshka Embeddings",
     "version": "0.0.1",
-    "description": "Description of matryoshka_embeddings.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
-    "plugin_url": "https://github.com/my_name/matryoshka_embeddings",
-    "tags": "cat, template, example",
-    "thumb": "https://raw.githubusercontent.com/my_repo_path/matryoshka_embeddings.png"
+    "description": "This plugin allow you to use the matryoshka feature from OpenAI text-embedding-3-* models.",
+    "author_name": "nickprock",
+    "author_url": "https://github.com/nickprock",
+    "plugin_url": "https://github.com/nickprock/matryoshka-embeddings",
+    "tags": "cat, integrations, embedder",
+    "thumb": "https://raw.githubusercontent.com/nickprock/matryoshka-embeddings/blob/main/matryoshka.jpeg"
 }

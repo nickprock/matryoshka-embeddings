@@ -8,8 +8,8 @@ from langchain_openai import OpenAIEmbeddings, AzureOpenAIEmbeddings
 
 class MatryoshkaOpenAIConfig(EmbedderSettings):
     openai_api_key: str
-    model: str 
-    dimensions: Optional[int]
+    model: str = 'text-embedding-3-small'
+    dimensions: Optional[int] = 1536
     _pyclass: Type = OpenAIEmbeddings
 
     model_config = ConfigDict(
@@ -29,7 +29,7 @@ class MatryoshkaAzureOpenAIConfig(EmbedderSettings):
     openai_api_type: str = "azure"
     openai_api_version: str
     deployment: str
-    dimensions: Optional[int] = 1536
+    dimensions: Optional[int]
 
     _pyclass: Type = AzureOpenAIEmbeddings
 
