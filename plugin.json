@@ -1,6 +1,6 @@
 {
     "name": "Matryoshka Embeddings",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This plugin allow you to use the matryoshka feature from OpenAI text-embedding-3-* models.",
     "author_name": "nickprock",
     "author_url": "https://github.com/nickprock",
